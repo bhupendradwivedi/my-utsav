@@ -2,7 +2,7 @@ import axios from "axios";
 // ---axiosinstance
 const api = axios.create({
 
-   baseURL:"http://localhost:3000/api",
+   baseURL:" https://my-utsav.onrender.com/api",
   withCredentials:true
 });
 
