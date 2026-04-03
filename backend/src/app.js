@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
      
-    origin: "https://my-utsav.vercel.app/", 
+    origin: "https://my-utsav.vercel.app", 
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
